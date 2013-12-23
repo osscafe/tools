@@ -7,7 +7,7 @@
 
 # このスクリプトをダウンロードして実行するか、
 # Macのターミナルから、次のコマンドを叩けばOKです。
-# curl -s https://raw.github.com/osscafe/tools/fix-display-issue.sh | sudo sh
+# curl -s https://raw.github.com/osscafe/tools/master/fix-display-issue.sh | sudo sh
 
 TARGET_DIR="/System/Library/Displays/Overrides/DisplayVendorID-1e6d"
 if [ ! -d $TARGET_DIR ]
